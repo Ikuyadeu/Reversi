@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>ポイント制オセロver1.1 - js do it</title>
+<meta name="Description" content="" />
+<meta name="Keywords"  content="" />
+
+<link rel="stylesheet" type="text/css" media="screen,print" href="style.css" />
+</head>
+<body>
+		<div>
+			<canvas id="canvas"></canvas>
+			<div id="info"></div>
+			<form>
+			    <input type="button" id="undo" value="undo">
+		    </form>
+		</div>
+		<div style="text-align: left; padding: 3px 0;">
+			<br>
+			<ul>
+				
+			</ul>
+		</div>
+
+<script type="text/javascript" src="http://jsdo.it/lib/jquery-1.7.2/js"></script>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
