@@ -520,9 +520,12 @@ Array.prototype.copy = function()
 }
 
 
-
+window.addEventListener("load", function() {
+  init();
+});
+/*
 window.onload = function()
 {
 	// 初期設定
 	init();
-}
+}*/
